@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(225, 225, 225);
+    margin: 100px;
+    text-align: center;
+}
+.add-button{
+    color: azure;
+    background-color: green;
+    border: 2px solid black;
+}
+.clear-button{
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+}
+.input-box{
+    border: 2px solid black;
+}
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 8px 0;
+  }
+  
+  .edit-button, .delete-button, .save-button {
+    margin-left: 8px;
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  .delete-button{
+    color: white;
+    background-color: red;
+    border: 2px solid black;
+  }
+  .save-button{
+    color: azure;
+    background-color: green;
+    border: 2px solid black;
+  }
+  .edit-button{
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
+  }
+  .edit-input {
+    padding: 4px;
+    margin-right: 8px;
+    width: 60%;
+  }
+  
